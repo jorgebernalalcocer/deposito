@@ -42,7 +42,8 @@ public class DepositoCombustibleTest {
 
 	@Test
 	public void testEstaVacio() {
-		fail("Not yet implemented");
+		DepositoCombustible tank = new DepositoCombustible(50.0,0.0);
+tank.estaVacio();
 	}
 
 	@Test
