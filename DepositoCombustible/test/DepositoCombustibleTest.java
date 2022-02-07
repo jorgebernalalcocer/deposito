@@ -40,9 +40,12 @@ public class DepositoCombustibleTest {
 		fail("Not yet implemented");
 	}
 
+	
 	@Test
 	public void testEstaVacio() {
-		fail("Not yet implemented");
+		DepositoCombustible tank = new DepositoCombustible(50.0,0.0);
+double nivel = tank.getDepositoNivel();
+assertTrue(nivel==0.0);
 	}
 
 	@Test
