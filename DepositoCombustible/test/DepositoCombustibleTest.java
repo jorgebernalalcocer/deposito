@@ -56,6 +56,7 @@ public class DepositoCombustibleTest {
 		tank.fill(20.0);
 		
 		assertTrue(40.0==tank.getDepositoNivel());
+		assertFalse(30.0==tank.getDepositoNivel());
 	}
 
 	@Test
