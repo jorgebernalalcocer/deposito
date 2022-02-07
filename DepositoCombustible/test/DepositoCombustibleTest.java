@@ -23,6 +23,7 @@ public class DepositoCombustibleTest {
 	@After
 	public void tearDown() throws Exception {
 	}
+    
 
 	@Test
 	public void testDepositoCombustible() {
@@ -32,7 +33,8 @@ public class DepositoCombustibleTest {
 
 	@Test
 	public void testGetDepositoNivel() {
-		fail("Not yet implemented");
+		DepositoCombustible tank = new DepositoCombustible(50.0,0.0);
+tank.getDepositoNivel();
 	}
 
 	@Test
