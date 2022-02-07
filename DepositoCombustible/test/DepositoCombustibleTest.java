@@ -75,7 +75,10 @@ assertTrue(nivel==0.0);
 
 	@Test
 	public void testConsumir() {
-		fail("Not yet implemented");
+		DepositoCombustible tank = new DepositoCombustible(50.0,20.0);
+		tank.consumir(20.0);
+		assertTrue(tank.getDepositoNivel()==0.0);
 	}
+
 
 }
