@@ -31,15 +31,21 @@ public class DepositoCombustibleTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
+    @Test
 	public void testGetDepositoNivel() {
-		DepositoCombustible tank = new DepositoCombustible(50.0,0.0);
-tank.getDepositoNivel();
-	}
 
-	@Test
+
+		DepositoCombustible tank = new DepositoCombustible(40.0,0.0);
+		double devuelto=tank.getDepositoNivel();
+		assertEquals(0.0,devuelto);
+    }
+
+
+    @Test
 	public void testGetDepositoMax() {
-		fail("Not yet implemented");
+		DepositoCombustible tank = new DepositoCombustible(50.0,0.0);
+		double devuelto=tank.getDepositoMax();
+		assertEquals(50.0,devuelto);
 	}
 
 	@Test
